@@ -1,0 +1,14 @@
+os: linux
+dist: xenial
+
+language: node_js
+node_js:
+  - "16"
+
+# Commands to install dependencies
+install:
+  - npm install
+
+# Commands to run tests
+script:
+  - echo "Hello, Ok test"
