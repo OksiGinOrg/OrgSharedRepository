@@ -7,7 +7,6 @@ node_js:
 # Commands to install dependencies
 install:
   - npm install
-
 # Commands to run tests
 script:
   - echo "Hello, Ok test"
