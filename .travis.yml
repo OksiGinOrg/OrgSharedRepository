@@ -3,6 +3,7 @@ os: linux
 dist: xenial
 
 language: node_js
+
 node_js:
   - "16"
 
@@ -13,4 +14,3 @@ install:
 # Commands to run tests
 script:
   - echo "Hello, Ok test"
-
